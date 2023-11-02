@@ -4,7 +4,7 @@
 
 [双系统启动效果_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1554y1n7zv?p=1&vd_source=260424bd71c9bf7b220c24f1e7de16d7)
 
-安装完之后要装显卡驱动，在软件更新界面把原有的驱动换成Nvidia的专属驱动（会出现一大段英文，安装说的重启即可）
+安装完之后要装显卡驱动，在软件更新界面把原有的驱动换成Nvidia的专属驱动（会出现一大段英文，按照说的重启即可）
 
 ### 2.安装ROS noetic
 
@@ -26,7 +26,7 @@ wget http://fishros.com/install -O fishros && . fishros
 sudo apt-get install libblas3 libblas-dev liblapack3 liblapack-dev gfortran
 ```
 
-将coinhsl-archive-2021.05.05文件复制到HSL文件夹中
+下载coinhsl-archive-2021.05.05文件解压并复制到HSL文件夹中
 
 ```text
 cd Ipopt-3.12.7/ThirdParty/HSL  
